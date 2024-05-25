@@ -306,7 +306,7 @@ input[type="submit"]:hover {
 .footer_link {
   display: flex;
 }
-.redes {
+/* .redes {
   display: flex;
   margin-bottom: 15px;
 }
@@ -320,7 +320,7 @@ input[type="submit"]:hover {
   border-radius: 50%;
   color: var(--texto_iconos);
   font-size: 20px;
-}
+} */
 form {
   margin-left: 40px;
   display: flex;
