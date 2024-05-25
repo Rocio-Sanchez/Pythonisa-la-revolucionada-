@@ -306,21 +306,6 @@ input[type="submit"]:hover {
 .footer_link {
   display: flex;
 }
-/* .redes {
-  display: flex;
-  margin-bottom: 15px;
-}
-.redes a {
-  display: inline-block;
-  min-height: 40px;
-  width: 40px;
-  margin: 0 15px 10px 0;
-  text-align: center;
-  line-height: 40px;
-  border-radius: 50%;
-  color: var(--texto_iconos);
-  font-size: 20px;
-} */
 form {
   margin-left: 40px;
   display: flex;
@@ -453,6 +438,10 @@ hr {
 .redes {
   display: flex;
   margin-bottom: 15px;
+  align-items: end;
+}
+.redes > h3 {
+    margin: 0 15px 15px 0;
 }
 .redes a {
   display: inline-block;
