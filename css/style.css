@@ -647,12 +647,13 @@ hr {
   height: 50vh;
   margin-bottom: 30px;
 }
-.nos-location p {
+.nos-location li {
   color: rgb(228, 244, 241);
   font-size: large;
   text-shadow: 2px 2px 4px #000000;
+  list-style-type: none;
 }
-.nos-location a{
+.nos-location a {
   color: rgb(243, 207, 5);
 }
 
@@ -685,7 +686,7 @@ p.nos-parrafo-centrado {
 text-align: center;
 }
 
-ol, li {
+.nos-container ol, li {
   margin: 20px;
   text-align: justify;
   list-style-type: decimal;
