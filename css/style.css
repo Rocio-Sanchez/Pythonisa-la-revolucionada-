@@ -306,21 +306,6 @@ input[type="submit"]:hover {
 .footer_link {
   display: flex;
 }
-/* .redes {
-  display: flex;
-  margin-bottom: 15px;
-}
-.redes a {
-  display: inline-block;
-  min-height: 40px;
-  width: 40px;
-  margin: 0 15px 10px 0;
-  text-align: center;
-  line-height: 40px;
-  border-radius: 50%;
-  color: var(--texto_iconos);
-  font-size: 20px;
-} */
 form {
   margin-left: 40px;
   display: flex;
@@ -453,6 +438,10 @@ hr {
 .redes {
   display: flex;
   margin-bottom: 15px;
+  align-items: end;
+}
+.redes > h3 {
+    margin: 0 15px 15px 0;
 }
 .redes a {
   display: inline-block;
@@ -645,6 +634,29 @@ hr {
 #  Estidos de 'nosotros.html'
 #######################################################################
 */
+.nos-location {
+  border: 1px solid black;
+  padding: 50px;
+  width: 100%;
+}
+.nos-location h1 {
+  color: black;
+  text-align: center;
+}
+.nos-location iframe {
+  width: 100%;
+  height: 50vh;
+  margin-bottom: 30px;
+}
+.nos-location p {
+  color: rgb(228, 244, 241);
+  font-size: large;
+  text-shadow: 2px 2px 4px #000000;
+}
+.nos-location a{
+  color: rgb(243, 207, 5);
+}
+
 .nos-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -665,7 +677,7 @@ hr {
   text-align: center;
 }
 
-p {
+.nos-container p {
   margin-left: 20px;
   text-align: justify;
 }
