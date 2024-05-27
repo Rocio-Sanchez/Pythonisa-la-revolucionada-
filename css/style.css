@@ -253,7 +253,7 @@ form {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 100%;
-  max-width: 500px; /* Reducimos el ancho máximo */
+  max-width: 500px; 
 }
 
 label {
@@ -613,7 +613,7 @@ hr {
 #######################################################################
 */
 .nos-location {
-  padding: 50px;
+  padding: 20px;
   width: 100%;
 }
 .nos-location h1 {
@@ -650,7 +650,7 @@ hr {
 .nos-container h1, h2 {
   font-size: 30px;
   color: var(--texto_primario);
-  margin: 30px auto;
+  margin: 10px auto;
   padding: 10px;
   text-align: center;
 }
@@ -716,4 +716,21 @@ text-align: center;
 .nos-card-description button:hover {
   background-color: #555555;
   color: white;
+}
+
+
+.contact-form {
+
+  & label.error {
+    color: red;
+  }
+
+  & input.error, 
+  & textarea.error {
+    border: 1px solid red;
+  }
+  & input.success { 
+    border: 1px solid green; 
+  }
+
 }
