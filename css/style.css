@@ -235,7 +235,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: calc(var(--altura_header) + 40px); /* Aumentar padding-top */
+  padding-top: calc(var(--altura_header) + 40px);
   width: 100%;
   max-width: var(--ancho_maximo);
   margin: 0 auto;
@@ -539,8 +539,8 @@ hr {
 }
 .productos h3{
   text-align: center;
-  font-size: 16px;
-  margin: 20 20 20 20;
+  font-size: 20px;
+  margin: 10 10 10 10;
   padding: 10px 10px 10px 10px;
 }
 .productos{
@@ -551,7 +551,7 @@ hr {
   text-align: center;
   border-radius: 20px;
   cursor: pointer;
-  padding-top: 10px;
+  padding-top: 0px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   transition: all 0.6s ease;
   background-color: #ffffff;
@@ -576,47 +576,25 @@ hr {
   padding: 10px;    
   color: #000000;
 }
-.productos h6{
-  font-size: 16px;
-  text-align: center;
-  color: #151616;
-  margin: 0;
-}
-.productos ul{
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 0;
-}
-.productos li{
-  padding-top: 5px;
-}
-.productos, .fa{
-  font-size: 20px;
-  transition: .4s;
-  margin: 3px;
-}
-.checked {
-  color:rgb(225, 250, 6)
-}
-.fa:hover, .fa-star:hover{
-  transform: scale(1.3);
-  transition: .6s;
-}
 .carrito{
   text-align: center;
   font-size: 24px;
-  color: #FFFFFF;
+  color: var(--texto_iconos);
   width: 100%;
   padding: 15px;
   border: 0;
   outline: none;
   cursor: pointer;
   margin-top: 5px;
+  border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
   background: #7180dfa4;
+}
+.carrito:hover{
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  background: var(--color_primario_oscuro);
 }
 @media (max-width: 500px) {
   .container-productos {
@@ -635,7 +613,6 @@ hr {
 #######################################################################
 */
 .nos-location {
-  border: 1px solid black;
   padding: 50px;
   width: 100%;
 }
