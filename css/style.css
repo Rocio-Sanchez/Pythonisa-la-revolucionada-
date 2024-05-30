@@ -559,15 +559,13 @@ text-align: center;
 }
 .footer_link {
   display: flex;
-  justify-content: space-between;
 }
 .redes {
   display: flex;
   margin-bottom: 15px;
-  align-items: end;
 }
-.redes > h3 {
-    margin: 0 15px 15px 0;
+.redes h3 {
+    margin: auto;
 }
 .redes a {
   display: inline-block;
